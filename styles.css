@@ -1,0 +1,28 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.items-container{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+
+
+.card{
+    padding: 12px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+
+
+.bought{
+    opacity: 0.4;
+    text-decoration: line-through;
+    border: 2px solid green;
+}
