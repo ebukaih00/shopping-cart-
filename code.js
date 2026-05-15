@@ -4,7 +4,7 @@ let countEl = document.getElementById("count")
 let containerEl = document.querySelector(".items-container")
 let inputEl = document.getElementById("input-el")
 
-countEl.innerText = "Items: "
+countEl.innerText = "Shopping Items: "
 
 
 function additem() {
