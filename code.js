@@ -4,7 +4,7 @@ let countEl = document.getElementById("count")
 let containerEl = document.querySelector(".items-container")
 let inputEl = document.getElementById("input-el")
 
-
+countEl.innerText = "Items: "
 
 
 function additem() {
@@ -12,7 +12,7 @@ function additem() {
         name: inputEl.value,
         bought: false
     })
-    countEl.innerText = "Items: " + items.length
+    countEl.innerText = "Shopping Items: " + items.length
    
     renderitem()
 }
